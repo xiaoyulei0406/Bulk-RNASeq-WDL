@@ -1,0 +1,9 @@
+{
+    "Name" : "RNA-seq_protocol",
+    "Type" : "WDL",
+    "Description" : "A pipeline for RNA assembly, expression and difference. Reference: Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown",
+    "WorkDir" : "vol2/xtvol@yingyun01:yingyun01/data/output",
+    "Wdl" : {
+	    "WorkflowFile" : "main.wdl"
+    }
+}

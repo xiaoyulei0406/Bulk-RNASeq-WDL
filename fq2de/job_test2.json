@@ -1,0 +1,23 @@
+{
+    "Name":"NEW-RNA-workflow",
+    "Pipeline" : "RNA-seq_protocol",
+    "InputDataSet" : {
+        "WorkflowInput" : {
+            "RNAflow.sample_info" : [
+                ["SRR3820446","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820446_1.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820446_2.fastq.gz"],
+                ["SRR3820445","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820445_1.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820445_2.fastq.gz"],
+                ["SRR3820448","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820448_1.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820448_2.fastq.gz"],
+                ["SRR3820447","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820447_1.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820447_2.fastq.gz"],
+                ["SRR3820449","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820449_1.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820449_2.fastq.gz"],
+                ["SRR3820395","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820395_1.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/SRR3820395_2.fastq.gz"]                           
+            ],
+            "RNAflow.vs_list":[
+                ["SRR3820446","SRR3820445"],["SRR3820448","SRR3820447"],["SRR3820449","SRR3820395"]     
+            ],
+            "RNAflow.hisat2_index" : "vol2/xtvol@yingyun01:yingyun01/data/refs/GRCh37/hisat2_build/GRCh37",
+            "RNAflow.ref_fa" : "vol2/xtvol@yingyun01:yingyun01/data/refs/GRCh37/ref_genome.fa",
+            "RNAflow.gtf" : "vol2/xtvol@yingyun01:yingyun01/data/refs/GRCh37/ref_annot.gtf",
+            "RNAflow.pheno" : "vol2/xtvol@yingyun01:yingyun01/data/rnaseq/oscc_rnaseq/pheno_test2.txt"
+    }
+}
+}
